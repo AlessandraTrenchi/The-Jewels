@@ -8,11 +8,71 @@
     <meta name="viewport" content="width=device-width", initial-scale=1.0, user-scalabale="0">
     <meta name="HandheldFriendly" content="true">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="thejewels.css">
+    <link rel="stylesheet" href="css/jewels.css">
     <link rel="icon" type="image/x-icon" href="images/coll.png">
     <title>The Jewels</title>
     </head>
     <body>
-        
+        <div class="modal" tabindex="-1" id="disclaimer">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Disclaimer</h5>
+                <button type="button" class="btn-close" id="bitti" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="purpose">
+                <p>
+                  The purpose of this web-site is to create a digital edition for the course <i>Digital Text in the Humanities</i>&#8217;course of the Master Degree in <i>Digital Humanities
+                  and Digital Knowledge</i> of the University of Bologna, under prof. <a href="https://www.unibo.it/sitoweb/tiziana.mancinelli2">Tiziana Mancinelli</a>. 
+                </p>
+                <p>
+                  The selected test is the story of <i>The Jewels</i> from Guy De Maupassant: a french writer and playwright of the 19th century, famous to be one of the esponents of the modern tale.
+                </p>
+                <p>This project was born with the idea of finding and inspecting the techniques used by the unreliable narrator, in order to know how he builds and tricks the readers' perceptions.</p>
+                  <p>This is the source of the text <a href="https://drsonachs.weebly.com/uploads/5/6/9/2/56928471/the_jewels_full_text.pdf">https://drsonachs.weebly.com/uploads/5/6/9/2/56928471/the_jewels_full_text.pdf</a>.</p>
+                <p>
+                    All copyrights and related rights on the content remain with their original owners.
+                    <br>
+                    All copyright on the typographic and layout choices are 2022 (C) Alessandra Trenchi and Chloe.
+                </p> 
+                </div>
+                <div class="modal-footer">
+                <button type="button" id="bitto" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar0">
+            <a class="navbar-brand" href="#">The Jewels</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Documentation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Analysis
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Classes</a>
+                    <a class="dropdown-item" href="#">Unreliable narrator</a>
+                    <a class="dropdown-item" href="#">Markup</a>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#disclaimer">Disclaimer</a>
+                      </li>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </body>
 </html>
