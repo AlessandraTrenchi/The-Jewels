@@ -13,12 +13,32 @@
     padding-left: 2em;
     font-size: 3em;
     font-family: 'chesterfield';
+    color:red!important;
 }
 .nav-link{
-    color: #daa520!important;
+{
+    padding-bottom: 13em;
+}    color:red!important;
     font-family: 'boston';
-    font-size:1.2em;
+    font-size:1.4em;
 }
 #navbar0 {
-    background-color: #8f44d5!important;
+    background-color: #daa520!important;
+}
+.Guy{
+    font-family: 'chesterfield';
+    padding-top: 2em;
+    color:#daa520;
+}
+.image{
+    width:15rem;
+    height:10rem;
+    filter:sepia()
+}
+.section{
+    background-color:#1a6271;
+    color:white;
+}
+.second{
+    padding-bottom: 13em;
 }
