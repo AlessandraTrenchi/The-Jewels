@@ -13,7 +13,7 @@
     padding-left: 2em;
     font-size: 3em;
     font-family: 'chesterfield';
-    color:red!important;
+    color:#1a6271!important;
 }
 .nav-link{
 {
@@ -41,4 +41,23 @@
 }
 .second{
     padding-bottom: 13em;
+}
+.text{
+    text-align: center;
+    padding: 1rem;
+    text-indent: 1.1;
+}
+footer{
+    color:#1a6271;
+    background-color:#daa520;
+    margin:0;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+.tiziana{
+    color:#1a6271;
+}
+#copia{
+    color:red;
 }
