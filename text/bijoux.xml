@@ -37,12 +37,81 @@ when an emotion is caused by a person, we have <emotion cause ="">......
             </bibl>
          </sourceDesc>
       </fileDesc>
+
+    <profileDesc>
+
+      <interpGrp type="emotions">
+        <desc>Emotions encoded in the text</desc>
+        <interp xml:id="joy" type="positive" subject="ref-person">Joy</interp>
+        <interp xml:id="trust" type="positive" subject="ref-person">Trust </interp>
+        <interp xml:id="anticipation" type="positive" subject="ref-person">Anticipation</interp>
+        <interp xml:id="sadness" type="negative" subject="ref-person">Sadness</interp>
+        <interp xml:id="disgust" type="negative" subject="ref-person">Disgust</interp>
+        <interp xml:id="anger" type="negative" subject="ref-person">Anger</interp>
+        <interp xml:id="fear" type="negative" subject="ref-person">Fear</interp>
+        <interp xml:id="surprise" type="negative" subject="ref-person">Surprise</interp>
+      </interpGrp>
+
+      <interpGrp type="emotion-cause">
+        <desc>Causes linked to emotions encoded in the text</desc>
+        <interp xml:id="cause-character">Character</interp>
+        <interp xml:id="cause-event">Event </interp>
+      </interpGrp>
+
+      <interpGrp type="emotion-effect">
+        <desc>Effects linked to emotions encoded in the text</desc>
+        <interp xml:id="positive-effect" type="positive">A positive effect to a character </interp>
+        <interp xml:id="negative-effect" type="negative">A negative effect to a character</interp>
+      </interpGrp>
+
+
+
+      <particDesc>
+          <listPerson xml:id="les-bijoux-characters">
+
+            <!-- is there a way to differentiate people lists for each story? or do we need different xml pages? -->
+              <person xml:id="M. Lantin">
+                  <persName type="main-character">Monsieur Lantin</persName>
+              </person>
+              <person xml:id="Mme Lantin">
+                  <persName type="main-character">Madame Lantin</persName>
+              </person>
+        </listPerson>
+
+        <listPerson xml:id="clair-de-lune-characters">
+              <person>
+                  <persName xml:id="id"> Name</persName>
+              </person>
+              <person xml:id="id">
+                  <persName>Name</persName>
+              </person>
+              <person xml:id="id">
+                  <persName>Name</persName>
+              </person>
+              <person xml:id="id">
+                  <persName>Name</persName>
+              </person>
+              <person xml:id="id">
+                  <persName>Name</persName>
+              </person>
+        </listPerson>
+
+      </particDesc>
+  </profileDesc>
+
+
+
+
+SADNESS , grief
+
+  </interpGrp>
+</profileDesc>
   </teiHeader>
   <text>
     <body>
     <div type="story" xml:xml:id="les-bijoux">
     <head>LES BIJOUX</head>
-<p>     <persName xml:id="Monsier-Lantin" type="main">M. Lantin</persName> ayant rencontré cette jeune <persName xml:id="Madame Lantin">fille</persName>, dans une soirée, chez son sous-chef de bureau, <emotion type ="positive" xml:id="love" subject="M.Lantin">l&#39;amour</emotion> l&#39;enveloppa comme un filet.</p>
+<p>     <persName xml:id="Monsier-Lantin" type="main">M. Lantin</persName> ayant rencontré cette jeune <persName xml:id="Madame Lantin">fille</persName>, dans une soirée, chez son sous-chef de bureau, <emotion type ="positive" xml:id="love" subject="M.Lantin" cause= "Madame-Lantin">l&#39;amour</emotion> l&#39;enveloppa comme un filet.</p>
 <p>     C&#39;était la fille d&#39;un percepteur de province, mort depuis plusieurs années. Elle était venue ensuite à Paris avec sa <persName xml:id="mother-of-wife" type="secondary">mère</persName>, qui fréquentait quelques familles bourgeoises de son quartier dans l&#39;<emotion type="positive" xml:id="anticipation" subject="mother-of-wife">espoir</emotion> de marier la jeune personne. Elles étaient pauvres et honorables, tranquilles et douces. La jeune fille semblait le type absolu de l&#39;honnête femme à laquelle le jeune homme sage rêve de confier sa vie. Sa beauté modeste avait un charme de pudeur angélique, et l&#39;imperceptible sourire qui ne quittait point ses lèvres semblait un reflet de son cœur.</p>
 <p>     Tout le monde chantait ses louanges ; tous ceux qui la connaissaient répétaient sans fin : « Heureux celui qui la prendra. On ne pourrait trouver mieux. »</p>
 <p>     <persName xml:id="Monsier-Lantin" type="main">M. Lantin </persName>, alors commis principal au ministère de l&#39;Intérieur, aux appointements annuels de trois mille cinq cents francs, la demanda en mariage et l&#39;épousa.</p>
