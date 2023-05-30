@@ -62,6 +62,20 @@ when an emotion is caused by a person, we have <emotion cause ="">......
         <desc>Effects linked to emotions encoded in the text</desc>
         <interp xml:id="positive-effect" type="positive">A positive effect to a character </interp>
         <interp xml:id="negative-effect" type="negative">A negative effect to a character</interp>
+
+
+
+      <interpGrp type="emotions">
+        <desc>Emotions encoded in the text</desc>
+        <interp xml:id="joy" type="positive" subject="ref-person">Joy</interp>
+        <interp xml:id="trust" type="positive" subject="ref-person">Trust </interp>
+        <interp xml:id="anticipation" type="positive" subject="ref-person">Anticipation</interp>
+        <interp xml:id="sadness" type="negative" subject="ref-person">Sadness</interp>
+        <interp xml:id="disgust" type="negative" subject="ref-person">Disgust</interp>
+        <interp xml:id="anger" type="negative" subject="ref-person">Anger</interp>
+        <interp xml:id="fear" type="negative" subject="ref-person">Fear</interp>
+        <interp xml:id="surprise" type="negative" subject="ref-person">Surprise</interp>
+        </interpGrp>
       </interpGrp>
 
 
@@ -109,13 +123,17 @@ SADNESS , grief
   </teiHeader>
   <text>
     <body>
-    <div type="story" xml:xml:id="les-bijoux">
+    <div type="story" xml:id="les-bijoux">
     <head>LES BIJOUX</head>
 <p>     <persName xml:id="M-Lantin" >M. Lantin</persName> ayant rencontré cette jeune <persName xml:id="Madame-Lantin">fille</persName>, dans une soirée, chez son sous-chef de bureau, <w ana ="positive-effect"><w ana="love"></w></w>l&#39;amour</emotion> l&#39;enveloppa comme un filet.</p>
 <p>     C&#39;était la fille d&#39;un percepteur de province, mort depuis plusieurs années. Elle était venue ensuite à Paris avec sa <persName xml:id="mother-of-wife" type="secondary">mère</persName>, qui fréquentait quelques familles bourgeoises de son quartier dans l&#39;<w ana="positive-effect"><w ana="anticipation">espoir</w></w> de marier la jeune personne. Elles étaient pauvres et honorables, tranquilles et douces. La jeune fille semblait le type absolu de l&#39;honnête femme à laquelle le jeune homme sage rêve de confier sa vie. Sa beauté modeste avait un charme de pudeur angélique, et l&#39;imperceptible sourire qui ne quittait point ses lèvres semblait un reflet de son cœur.</p>
 <p>     Tout le monde chantait ses louanges ; tous ceux qui la connaissaient répétaient sans fin : « Heureux celui qui la prendra. On ne pourrait trouver mieux. »</p>
 <p>     <persName xml:id="M-Lantin" >M. Lantin </persName>, alors commis principal au ministère de l&#39;Intérieur, aux appointements annuels de trois mille cinq cents francs, la demanda en mariage et l&#39;épousa.</p>
+<<<<<<< Updated upstream
 <p>     Il fut avec elle invraisemblablement <w ana="positive-effect"><w ana="joy">heureux</w></w>. Elle gouverna sa maison avec une économie si adroite qu&#39;ils semblaient vivre dans le luxe. Il n&#39;était point d&#39;attentions, de délicatesses, de chatteries qu&#39;elle n&#39;eût pour son mari ; et la séduction de sa personne était si grande que, six ans après leur rencontre, il l&#39;<w ana="positive-effect"><w ana="love">aimait</w></w> plus encore qu&#39;aux premiers jours.</p>
+=======
+<p>     Il fut avec elle invraisemblablement <emotion type="positive" xml:id="joy" cause= "Madame-Lantin">heureux</emotion>. Elle gouverna sa maison avec une économie si adroite qu&#39;ils semblaient vivre dans le luxe. Il n&#39;était point d&#39;attentions, de délicatesses, de chatteries qu&#39;elle n&#39;eût pour son mari ; et la séduction de sa personne était si grande que, six ans après leur rencontre, il l&#39;<emotion type="positive" xml:id="love" cause="wife">aimait</emotion> plus encore qu&#39;aux premiers jours.</p>
+>>>>>>> Stashed changes
 <p>     Il ne <w ana="anger">blâmait </w> en elle que deux goûts, celui du théâtre et celui des bijouteries fausses.</p>
 <p>     Ses amies (elle connaissait quelques femmes de modestes fonctionnaires) lui procuraient à tous moments des loges pour les pièces en vogue, même pour les premières représentations ; et elle traînait, bon gré, mal gré, son mari à ces divertissements qui le <effect>fatiguaient affreusement</effect> après sa journée de travail. Alors il la supplia de consentir à aller au spectacle avec quelque dame de sa connaissance qui la ramènerait ensuite. Elle fut longtemps à céder, trouvant peu convenable cette manière d&#39;agir. Elle s&#39;y décida enfin par complaisance, et il lui en sut un gré infini.</p>
 <p>     Or, ce goût pour le théâtre fit bientôt naître en elle le besoin de se parer. Ses toilettes demeuraient toutes simples, il est vrai, de bon goût toujours, mais modestes ; et sa grâce douce, sa grâce irrésistible, humble et souriante, semblait acquérir une saveur nouvelle de la simplicité de ses robes, mais elle prit l&#39;habitude de pendre à ses oreilles deux gros cailloux du Rhin qui simulaient des diamants, et elle portait des colliers de perles fausses, des bracelets en similor, des peignes agrémentés de verroteries variées jouant les pierres fines.</p>
