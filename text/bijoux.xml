@@ -36,35 +36,7 @@
       </fileDesc>
 
     <profileDesc>
-
-<textDesc n="Emotions">
- <channel mode="w"/>
-      <interpGrp type="emotions">
-        <desc>Emotions encoded in the text</desc>
-        <interp xml:id="joy" type="positive" >Joy</interp>
-        <interp xml:id="trust" type="positive" >Trust </interp>
-        <interp xml:id="anticipation" type="positive" >Anticipation</interp>
-        <interp xml:id="sadness" type="negative">Sadness</interp>
-        <interp xml:id="disgust" type="negative">Disgust</interp>
-        <interp xml:id="anger" type="negative">Anger</interp>
-        <interp xml:id="fear" type="negative">Fear</interp>
-        <interp xml:id="surprise" type="negative">Surprise</interp>
-      </interpGrp>
-
-      <interpGrp type="emotion-causes">
-        <desc>Causes linked to emotions encoded in the text</desc>
-        <interp xml:id="cause-character">A character that can affect the emotional state of another character.</interp>
-        <interp xml:id="cause-event">Event, that can influence a character's state (e.g. someone's death) </interp>
-      </interpGrp>
-
-      <interpGrp type="emotion-effect">
-        <desc>Effects linked to emotions encoded in the text</desc>
-        <interp xml:id="positive-effect" type="positive">A positive effect to a character </interp>
-        <interp xml:id="negative-effect" type="negative">A negative effect to a character</interp>
-
-</interpGrp>
-</textDesc>
-
+      
       <particDesc>
           <listPerson xml:id="les-bijoux-characters">
 
@@ -97,7 +69,6 @@
 
       </particDesc>
   </profileDesc>
-
   <xenoData>
     <rdf:RDF>
       <rdf:Description tei:ref="#joy" rdf:about="http://130.192.212.225/fuseki/ArsEmotica-core#Joy">
@@ -144,25 +115,21 @@
     <div type="story" xml:id="les-bijoux">
       <head>LES BIJOUX</head>
 <p>    <persName ref="#M-Lantin" >M. Lantin</persName> ayant rencontré cette jeune <persName ref="#Madame-Lantin">fille</persName>, dans une soirée, chez son sous-chef de bureau, <interp ana="#love #positive-effect">l&#39;amour</interp> l&#39;enveloppa comme un filet.</p>
-<p>     C&#39;était la fille d&#39;un percepteur de province, mort depuis plusieurs années. Elle était venue ensuite à Paris avec sa mère, qui fréquentait quelques familles bourgeoises de son quartier dans l&#39;<interp ana="positive-effect #anticipation">espoir</interp> de marier la jeune personne. Elles étaient pauvres et honorables, tranquilles et douces. La jeune fille semblait le type absolu de l&#39;honnête femme à laquelle le jeune homme sage rêve de confier sa vie. Sa beauté modeste avait un charme de pudeur angélique, et l&#39;imperceptible sourire qui ne quittait point ses lèvres semblait un reflet de son cœur.</p>
+<p>     C&#39;était la fille d&#39;un percepteur de province, mort depuis plusieurs années. Elle était venue ensuite à Paris avec sa mère, qui fréquentait quelques familles bourgeoises de son quartier dans l&#39;<interp ana="#positive-effect #anticipation">espoir</interp> de marier la jeune personne. Elles étaient pauvres et honorables, tranquilles et douces. La jeune fille semblait le type absolu de l&#39;honnête femme à laquelle le jeune homme sage rêve de confier sa vie. Sa beauté modeste avait un charme de pudeur angélique, et l&#39;imperceptible sourire qui ne quittait point ses lèvres semblait un reflet de son cœur.</p>
 <p>     Tout le monde chantait ses louanges ; tous ceux qui la connaissaient répétaient sans fin : « Heureux celui qui la prendra. On ne pourrait trouver mieux. »</p>
 <p>     <persName ref="#M-Lantin" >M. Lantin </persName>, alors commis principal au ministère de l&#39;Intérieur, aux appointements annuels de trois mille cinq cents francs, la demanda en mariage et l&#39;épousa.</p>
-<p>     Il fut avec elle invraisemblablement <interp ana="#positive-effect #joy">heureux</interp>. Elle gouverna sa maison avec une économie si adroite qu&#39;ils semblaient vivre dans le luxe. Il n&#39;était point d&#39;attentions, de délicatesses, de chatteries qu&#39;elle n&#39;eût pour son mari ; et la séduction de sa personne était si grande que, six ans après leur rencontre, il l&#39;<interp ana="positive-effect #love">aimait</interp> plus encore qu&#39;aux premiers jours.</p>
-<p>     Il ne <interp ana="anger">blâmait </interp> en elle que deux goûts, celui du théâtre et celui des bijouteries fausses.</p>
+<p>     Il fut avec elle invraisemblablement <interp ana="#positive-effect #joy">heureux</interp>. Elle gouverna sa maison avec une économie si adroite qu&#39;ils semblaient vivre dans le luxe. Il n&#39;était point d&#39;attentions, de délicatesses, de chatteries qu&#39;elle n&#39;eût pour son mari ; et la séduction de sa personne était si grande que, six ans après leur rencontre, il l&#39;<interp ana="#positive-effect #love">aimait</interp> plus encore qu&#39;aux premiers jours.</p>
+<p>     Il ne <interp ana="#anger">blâmait </interp> en elle que deux goûts, celui du théâtre et celui des bijouteries fausses.</p>
 <p>     Ses amies (elle connaissait quelques femmes de modestes fonctionnaires) lui procuraient à tous moments des loges pour les pièces en vogue, même pour les premières représentations ; et elle traînait, bon gré, mal gré, son mari à ces divertissements qui le fatiguaient affreusement après sa journée de travail. Alors il la supplia de consentir à aller au spectacle avec quelque dame de sa connaissance qui la ramènerait ensuite. Elle fut longtemps à céder, trouvant peu convenable cette manière d&#39;agir. Elle s&#39;y décida enfin par complaisance, et il lui en sut un gré infini.</p>
 <p>     Or, ce goût pour le théâtre fit bientôt naître en elle le besoin de se parer. Ses toilettes demeuraient toutes simples, il est vrai, de bon goût toujours, mais modestes ; et sa grâce douce, sa grâce irrésistible, humble et souriante, semblait acquérir une saveur nouvelle de la simplicité de ses robes, mais elle prit l&#39;habitude de pendre à ses oreilles deux gros cailloux du Rhin qui simulaient des diamants, et elle portait des colliers de perles fausses, des bracelets en similor, des peignes agrémentés de verroteries variées jouant les pierres fines.</p>
 <p>     Son mari, que <interp ana="#negative-effect #surprise #cause-character">choquait</interp> un peu cet <interp ana="#positive-effect #love #cause-character">amour</interp> du clinquant, répétait souvent : « Ma chère, quand on n&#39;a pas le moyen de se payer des bijoux véritables, on ne se montre parée que de sa beauté et de sa grâce, voilà encore les plus rares joyaux. »</p>
-<p>     Mais elle <interp ana= "joy">souriait</interp> doucement et répétait : « Que veux-tu ? J&#39;<interp ana="#love">aime</interp> ça. C&#39;est mon vice. Je sais bien que tu as raison ; mais on ne se refait pas. J&#39;aurais adoré les bijoux, moi ! »</p>
+<p>     Mais elle <interp ana="#joy">souriait</interp> doucement et répétait : « Que veux-tu ? J&#39;<interp ana="#love">aime</interp> ça. C&#39;est mon vice. Je sais bien que tu as raison ; mais on ne se refait pas. J&#39;aurais adoré les bijoux, moi ! »</p>
 <p>     Et elle faisait rouler dans ses doigts les colliers de perles, miroiter les facettes des cristaux taillés, en répétant : « Mais regarde donc comme c&#39;est bien fait. On jurerait du vrai. »</p>
 <p>     Il souriait en déclarant : « Tu as des goûts de Bohémienne. »</p>
-<p>     Quelquefois, le soir, quand ils demeuraient en tête à tête au coin du feu, elle apportait sur la table où ils prenaient le thé la boîte de maroquin où elle enfermait la « pacotille », selon le mot de <persName ref="#M-Lantin" >M. Lantin </persName>; et elle se mettait à examiner ces bijoux imités avec une attention <interp ana="love">passionnée</interp>, comme si elle eût savouré quelque jouissance secrète et profonde ; et elle s&#39;obstinait à passer un collier au cou de son mari pour rire ensuite de tout son cœur en s&#39;écriant : « Comme tu es drôle ! » Puis elle se jetait dans ses bras et l&#39;embrassait éperdument.</p>
-<p>     Comme elle avait été à l&#39;Opéra, une nuit d&#39;hiver, elle rentra toute frissonnante de froid. Le lendemain elle toussait. Huit jours plus tard <phr ana="death">elle mourait</phr> d&#39;une fluxion de poitrine.</p>
-<p>     <persName ref="#M-Lantin" >Lantin </persName> faillit la suivre dans la tombe. Son <interp ana="negative-effect"><interp ana="sadness"> <interp ana="cause-event">désespoir</interp></interp></interp> fut si terrible que ses cheveux devinrent blancs en un mois.</p>
+<p>     Quelquefois, le soir, quand ils demeuraient en tête à tête au coin du feu, elle apportait sur la table où ils prenaient le thé la boîte de maroquin où elle enfermait la « pacotille », selon le mot de <persName ref="#M-Lantin" >M. Lantin </persName>; et elle se mettait à examiner ces bijoux imités avec une attention <interp ana="#love">passionnée</interp>, comme si elle eût savouré quelque jouissance secrète et profonde ; et elle s&#39;obstinait à passer un collier au cou de son mari pour rire ensuite de tout son cœur en s&#39;écriant : « Comme tu es drôle ! » Puis elle se jetait dans ses bras et l&#39;embrassait éperdument.</p>
+<p>     Comme elle avait été à l&#39;Opéra, une nuit d&#39;hiver, elle rentra toute frissonnante de froid. Le lendemain elle toussait. Huit jours plus tard elle mourait d&#39;une fluxion de poitrine.</p>
+<p>     <persName ref="#M-Lantin" >Lantin </persName> faillit la suivre dans la tombe. Son <interp ana="#negative-effect #sadness #cause-event">désespoir</interp> fut si terrible que ses cheveux devinrent blancs en un mois.</p>
 
-
-<!-- here begins a series of emotions which are effects of the death -->
-<!-- it is stated that the character is sad and that is further exposed by his facial expressions, his tears, etc. -->
-<!-- can we state these as effects or are they just emotions? -->
 
 <p> Il <interp ana="#negative-effect #grief" >pleurait</interp> du matin au soir, l&#39;<interp ana="#negative-effect #grief">âme déchirée</interp> d&#39;une <interp ana="#negative-effect #grief">souffrance intolérable </interp>, hanté par le souvenir, par le sourire, par la voix, par tout le charme de la morte.</p>
 <p>     Le temps napaisa point sa douleur. Souvent pendant les heures du bureau, alors que les collègues s&#39;en venaient causer un peu des choses du jour, on voyait soudain <interp>ses joues se gonfler</interp>, <interp>son nez se plisser</interp>, <interp>ses yeux s&#39;emplir d&#39;eau</interp> ; il faisait une <interp>grimace affreuse</interp> et se mettait à <interp>sangloter</interp>.</p>
@@ -223,7 +190,34 @@
 <p>     Six mois plus tard il se remariait. Sa seconde femme était très honnête, mais d&#39;un caractère difficile. Elle le fit beaucoup <interp ana="#negative-effect #sadness" >souffrir</interp>.</p>
     </div>
    </body>
-    </text>
+<back>
+<interpGrp type="emotions">
+        <desc>Emotions encoded in the text</desc>
+        <interp xml:id="joy" type="positive" >Joy</interp>
+        <interp xml:id="trust" type="positive" >Trust </interp>
+        <interp xml:id="anticipation" type="positive" >Anticipation</interp>
+        <interp xml:id="sadness" type="negative">Sadness</interp>
+        <interp xml:id="disgust" type="negative">Disgust</interp>
+        <interp xml:id="anger" type="negative">Anger</interp>
+        <interp xml:id="fear" type="negative">Fear</interp>
+        <interp xml:id="surprise" type="negative">Surprise</interp>
+      </interpGrp>
 
+      <interpGrp type="emotion-causes">
+        <desc>Causes linked to emotions encoded in the text</desc>
+        <interp xml:id="cause-character">A character that can affect the emotional state of another character.</interp>
+        <interp xml:id="cause-event">Event, that can influence a character's state (e.g. someone's death) </interp>
+      </interpGrp>
+
+      <interpGrp type="emotion-effect">
+        <desc>Effects linked to emotions encoded in the text</desc>
+        <interp xml:id="positive-effect" type="positive">A positive effect to a character </interp>
+        <interp xml:id="negative-effect" type="negative">A negative effect to a character</interp>
+
+</interpGrp>
+</back>
+</text>
 </TEI>
+
+
 
